@@ -9,39 +9,40 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		<lable for="name">Name*</lable><br>
-		<input type="name" id="name" required>
+		<lable for="name">Name*</lable>
+		<input type="name" id="name" placeholder="Name" required >
 		<br>
-		<lable for="email">Email*</lable><br>
-		<input type="email" id="email" required>
+		<lable for="email">Email*</lable>
+		<input type="email" id="email" required placeholder="Email">
 		<br>
 		<lable for="gender">Gender*</lable>
 		<input type="radio" id="gender_m" name="gender" required>Male
 		<input type="radio" id="gender_f" name="gender" required>Female
 		<br>
-		<lable for="car" id="cars">Car Brands*</lable><br>
+		<lable for="car" id="cars">Car Brands*</lable>
 		<select  required>
+			<option selected disabled>--Please choose an option--</option>
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
 		</select>
 		<br>
-		<lable for="age">Age*</lable><br>
-		<input type="number" id="age" required>
+		<lable for="age">Age*</lable>
+		<input type="number" id="age" required placeholder="Age">
 		<br>
-		<lable for="dob">DOB*</lable><br>
+		<lable for="dob">DOB*</lable>
 		<input type="date" id="dob" required>
 		<br>
-		<lable for="tel">Phone Number</lable><br>
-		<input type="tel" id="tel">
+		<lable for="tel">Phone Number</lable>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
 		<br>
-		<lable for="password">Password*</lable><br>
-		<input type="password" id="password" required>
+		<lable for="password">Password*</lable>
+		<input type="password" id="password" required placeholder="Password">
 		<br>
-		<lable for="name">tos*</lable>
+		<lable for="tos"> I agree to the TOS.*</lable>
 		<input type="checkbox" id="tos" required>
 		<br>
-		<button class="button">Submit</button>
+		<button type="submit">Submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
