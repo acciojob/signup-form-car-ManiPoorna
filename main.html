@@ -9,37 +9,39 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		<lable for="name">Name*</lable>
+		<label for="name">Name*</label>
 		<input type="name" id="name" placeholder="Name" required >
 		<br>
-		<lable for="email">Email*</lable>
+		<label for="email">Email*</label>
 		<input type="email" id="email" required placeholder="Email">
 		<br>
-		<lable for="gender">Gender*</lable>
-		<input type="radio" id="gender_m" name="gender" required>Male
-		<input type="radio" id="gender_f" name="gender" required>Female
+		<label for="gender">Gender*</label>
+		<input type="radio" id="gender_m" name="gender" required>
+		<label for="gender_m">Male</label>
+		<input type="radio" id="gender_f" name="gender" required>
+		<label for="gneder_f">Female</label>
 		<br>
-		<lable for="car" id="cars">Car Brands*</lable>
-		<select  required>
+		<lable for="cars" id="cars">Car Brands*</lable>
+		<select  id="cars" required>
 			<option selected disabled>--Please choose an option--</option>
 			<option>BMW</option>
 			<option>Audi</option>
 			<option>Mercedez</option>
 		</select>
 		<br>
-		<lable for="age">Age*</lable>
+		<label for="age">Age*</label>
 		<input type="number" id="age" required placeholder="Age">
 		<br>
-		<lable for="dob">DOB*</lable>
+		<label for="dob">DOB*</label>
 		<input type="date" id="dob" required>
 		<br>
-		<lable for="tel">Phone Number</lable>
+		<label for="tel">Phone Number</label>
 		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
 		<br>
-		<lable for="password">Password*</lable>
+		<label for="password">Password*</label>
 		<input type="password" id="password" required placeholder="Password">
 		<br>
-		<lable for="tos"> I agree to the TOS.*</lable>
+		<label for="tos"> I agree to the TOS.*</label>
 		<input type="checkbox" id="tos" required>
 		<br>
 		<button type="submit">Submit</button>
